@@ -1,5 +1,6 @@
 import Data from "./Components/Home/data";
 import Home from "./Components/Home/Home";
+import data from "./Components/dataBox/data";
 
 function App() {
   const Details = [
@@ -43,8 +44,8 @@ function App() {
         <Home details={data} newAlert={foralert} key={"ids"}></Home>
       ))}
       <h1>Hello My App</h1>*/}
-      <Data></Data>
-      <Home></Home>
+
+      <data></data>
     </>
   );
 }

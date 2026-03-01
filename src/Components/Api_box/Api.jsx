@@ -1,6 +1,6 @@
 import React from "react";
 
-const data = () => {
+const Api = () => {
   return (
     <div>
       <h1>data box Here</h1>
@@ -8,4 +8,4 @@ const data = () => {
   );
 };
 
-export default data;
+export default Api;

@@ -1,6 +1,6 @@
 import Data from "./Components/Home/data";
 import Home from "./Components/Home/Home";
-import data from "./Components/dataBox/data";
+import Api from "./Components/Api_box/Api";
 
 function App() {
   const Details = [
@@ -45,7 +45,7 @@ function App() {
       ))}
       <h1>Hello My App</h1>*/}
 
-      <data></data>
+      <Api></Api>
     </>
   );
 }
